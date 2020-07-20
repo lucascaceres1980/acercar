@@ -32,6 +32,7 @@ export class RepartosPage implements OnInit {
   async ngOnInit() {
     await this.platform.ready();
     await this.loadMap();
+    await this.localizar();
   }
 
   loadMap() {
@@ -52,6 +53,7 @@ export class RepartosPage implements OnInit {
         tilt: 30
       }
     });
+
   }
 
   async localizar() {
@@ -86,7 +88,7 @@ export class RepartosPage implements OnInit {
 
         // Agregamos un nuevo marcador
         let marker: Marker = this.map.addMarkerSync({
-          title: "Estoy aquí!",
+          title: "Tu ubicación",
           snippet: "This plugin is awesome!",
           position: location.latLng,
           animation: GoogleMapsAnimation.BOUNCE
