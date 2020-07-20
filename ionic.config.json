@@ -1,0 +1,8 @@
+{
+  "name": "acercar",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}

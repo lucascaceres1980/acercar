@@ -1,0 +1,34 @@
+<ion-content>
+
+  <div>
+    <img src="/assets/img/logo_negativo.png" text-center alt="icono acercar" class="image"/>
+  </div>
+
+  <ion-item class="title" lines="none">
+    <h1 style="color:#FEFEFE; font-weight: bold; width: 100%;">Acercar</h1>
+  </ion-item>
+
+  <ion-item class="title" lines="none">
+    <p class="labelStyleSubTitle" style="width: 100%;" no-padding>La herramienta para encontrar precios mas baratos, uniendo productores y consumidores.</p>
+  </ion-item>
+
+  <ion-grid fixed> 
+    <ion-row routerLink="/repartos" routerDirection="root">
+      <ion-col size="12" size-lg="3" size-md="4" size-sm="6" size-xs="6"
+               *ngFor="let option of options">
+  
+        <ion-card mode="ios">
+
+          <img [src]="option.img" class="option-image">
+
+          <ion-card-header>
+            <ion-card-title>{{ option.title }}</ion-card-title>
+          </ion-card-header>
+
+        </ion-card>
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
