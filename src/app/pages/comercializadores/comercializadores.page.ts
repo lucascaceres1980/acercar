@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-comercializarores',
-  templateUrl: './comercializarores.page.html',
-  styleUrls: ['./comercializarores.page.scss'],
+  selector: 'app-comercializadores',
+  templateUrl: './comercializadores.page.html',
+  styleUrls: ['./comercializadores.page.scss'],
 })
-export class ComercializaroresPage implements OnInit {
+export class ComercializadoresPage implements OnInit {
 
   comercios: { img: string, name: string, desc: string, adress: string }[] = [
     {
