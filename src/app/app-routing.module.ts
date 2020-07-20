@@ -17,11 +17,23 @@ const routes: Routes = [
   },
   {
     path: 'repartos',
-    loadChildren: () => import('./repartos/repartos.module').then( m => m.RepartosPageModule)
+    loadChildren: () => import('./pages/repartos/repartos.module').then( m => m.RepartosPageModule)
   },
   {
     path: 'repartos-detalle',
     loadChildren: () => import('./repartos-detalle/repartos-detalle.module').then( m => m.RepartosDetallePageModule)
+  },
+  {
+    path: 'productos',
+    loadChildren: () => import('./pages/productos/productos.module').then( m => m.ProductosPageModule)
+  },
+  {
+    path: 'establecimientos',
+    loadChildren: () => import('./pages/establecimientos/establecimientos.module').then( m => m.EstablecimientosPageModule)
+  },
+  {
+    path: 'comercializarores',
+    loadChildren: () => import('./pages/comercializarores/comercializarores.module').then( m => m.ComercializaroresPageModule)
   },
 ];
 

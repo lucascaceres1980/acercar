@@ -7,26 +7,31 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  options: { img: string, title: string, desc: string }[] = [
+  options: { img: string, title: string, desc: string, link: string }[] = [
     {
       img: '/assets/home/photos.svg',
       title: 'Productos',
-      desc: ''
+      desc: '',
+      link: '/productos'
     },
     {
       img: '/assets/home/music-player-2.svg',
       title: 'Establecimientos',
-      desc: ''
+      desc: '', 
+      link: '/establecimientos'
+
     },
     {
       img: '/assets/home/calendar.svg',
       title: 'Repartos a tu casa',
-      desc: ''
+      desc: '',
+      link: '/repartos'
     },
     {
       img: '/assets/home/placeholder-1.svg',
       title: 'Comercializarores',
-      desc: ''
+      desc: '',
+      link: '/comercializarores'
     }
   ];
 
