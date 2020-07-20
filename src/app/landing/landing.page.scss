@@ -1,7 +1,3 @@
-ion-content {
-  --ion-background-color:#00AEC3;
-}
-
 ion-item h1 {
   color:#FEFEFE; 
   font-weight: bold; 
@@ -36,11 +32,11 @@ div {
   filter:   invert(93%) sepia(7%) saturate(14%) hue-rotate(273deg) brightness(107%) contrast(106%);
 }
 
-.footer {
-  background-color: #00AEC3;
+ion-toolbar div {
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .image-footer{
