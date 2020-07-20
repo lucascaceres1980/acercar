@@ -31,7 +31,7 @@ export class HomePage {
       img: '/assets/home/placeholder-1.svg',
       title: 'Comercializarores',
       desc: '',
-      link: '/comercializarores'
+      link: '/comercializadores'
     }
   ];
 

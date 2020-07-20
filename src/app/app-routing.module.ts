@@ -32,8 +32,8 @@ const routes: Routes = [
     loadChildren: () => import('./pages/establecimientos/establecimientos.module').then( m => m.EstablecimientosPageModule)
   },
   {
-    path: 'comercializarores',
-    loadChildren: () => import('./pages/comercializarores/comercializarores.module').then( m => m.ComercializaroresPageModule)
+    path: 'comercializadores',
+    loadChildren: () => import('./pages/comercializadores/comercializadores.module').then( m => m.ComercializadoresPageModule)
   },
 ];
 
