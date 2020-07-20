@@ -1,89 +1,52 @@
-.title{
-    height: auto; 
-    width: 100%;
-    text-align: center;
-  }
-  
-  .labelStyle{
-    font-weight: bold;
-    color: black !important;
-    font-size: 24px;
-    margin-top: 10px;
-  }
-  
-  
-  .labelStyleSubTitle{
-    font-weight: normal;
-    color: white !important;
-    font-size: 12px;
-    margin-top: 10px;
-  }
-  
-  .center {
-    display: block;
-    margin: auto;
-    width: 50%;
-   }
-   
-  div {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .image{
-    display: block;
-    width: 30%;
-    margin-top: 30px;
-  }
-  
-  ion-card {
-    overflow: unset !important;
-  }
-  
-  ion-card {
-    height: 80px;
-    margin-top: 50px;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  
-  .option-image {
-    width: 55px;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    top: -33px;
-  }
-  
-  
-  ion-card-header {
-    position: relative;
-    top: -40px;
-    text-align: center;
-    padding-left: 0;
-    padding-right: 0;
-  }
-  ion-card-title {
-    font-size: 17px;
-  }
-  
-  ion-card-content {
-    position: relative;
-    top: -50px;
-  }
-  
-  ion-content {
-    --ion-background-color:#00AEC3;
-  }
+ion-content {
+  --ion-background-color:#00AEC3;
+}
 
-  .footer {
-    background-color: #00AEC3;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    color: #00AEC3;
-  }
+ion-item h1 {
+  color:#FEFEFE; 
+  font-weight: bold; 
+  width: 100%; 
+  font-size: xx-large;
+  margin-top: 25%;
+}
+
+.title{
+  height: auto; 
+  width: 100%;
+  text-align: center;
+}
+
+.labelStyleSubTitle {
+  color:#FEFEFE; 
+  width: 100%; 
+  font-size: medium;
+}
+
+div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image{
+  display: block;
+  width: 50%;
+  margin-top: 25%;
+  filter:   invert(93%) sepia(7%) saturate(14%) hue-rotate(273deg) brightness(107%) contrast(106%);
+}
+
+.footer {
+  background-color: #00AEC3;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.image-footer{
+  display: block;
+  width: 25%;
+  margin-top: 40%;
+  margin-bottom: 20%;
+  filter:   invert(93%) sepia(7%) saturate(14%) hue-rotate(273deg) brightness(107%) contrast(106%);
+}
