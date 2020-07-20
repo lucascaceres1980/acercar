@@ -29,9 +29,9 @@ export class HomePage {
     },
     {
       img: '/assets/home/placeholder-1.svg',
-      title: 'Comercializarores',
+      title: 'Comercializadores',
       desc: '',
-      link: '/comercializarores'
+      link: '/comercializadores'
     }
   ];
 

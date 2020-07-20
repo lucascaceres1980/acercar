@@ -11,4 +11,15 @@
 
 <ion-content>
 
+  <ion-item *ngFor="let comercio of comercios">
+    <ion-avatar slot="start">
+      <img [src]="comercio.img">
+    </ion-avatar>
+    <ion-label>
+      <h2>{{ comercio.name }}</h2>
+      <h3>{{ comercio.desc }}</h3>
+      <p>{{ comercio.adress }}</p>
+    </ion-label>
+  </ion-item>
+
 </ion-content>
