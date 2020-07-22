@@ -91,7 +91,7 @@ export class RepartosPage implements OnInit {
           title: "Tu ubicación",
           snippet: "This plugin is awesome!",
           position: location.latLng,
-          animation: GoogleMapsAnimation.BOUNCE,
+          animation: GoogleMapsAnimation.BOUNCE
         });
 
         // Mostramos un InfoWindow
