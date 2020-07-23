@@ -63,6 +63,31 @@ export class RepartosPage implements OnInit {
       title:'Point 5',
       icon: 'http://maps.google.com/mapfiles/ms/icons/green-dot.png'
     },
+    ,
+    {
+      position:{
+        latitude: -34.6361030, 
+        longitude: -58.3749310,
+      },
+      title:'Point 6',
+      icon: 'http://maps.google.com/mapfiles/ms/icons/green-dot.png'
+    },
+    {
+      position:{
+        latitude: -34.6369152, 
+        longitude: -58.3742651,
+      },
+      title:'Point 7',
+      icon: 'http://maps.google.com/mapfiles/ms/icons/green-dot.png'
+    },
+    {
+      position:{
+        latitude: -34.6347679,  
+        longitude: -58.3750240,
+      },
+      title:'Point 8',
+      icon: 'http://maps.google.com/mapfiles/ms/icons/green-dot.png'
+    },
   ];
 
   constructor( public loadingCtrl: LoadingController,
