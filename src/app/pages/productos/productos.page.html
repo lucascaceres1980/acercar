@@ -10,5 +10,20 @@
 </ion-header> 
 
 <ion-content>
+  <ion-list>
 
+    <ion-menu-toggle autoHide="false" *ngFor="let producto of productos">
+
+      <ion-item [routerLink]="producto.redirectTo" detail>
+        <ion-icon slot="start" [src]="producto.icon" [class]="producto.class"></ion-icon>
+        <ion-label>
+          <h2>{{ producto.name }}</h2>
+          <p>{{ producto.desc }}</p>
+        </ion-label>
+        
+      </ion-item>
+
+    </ion-menu-toggle>
+  
+  </ion-list>
 </ion-content>
